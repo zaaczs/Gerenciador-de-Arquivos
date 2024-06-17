@@ -1,0 +1,18 @@
+CREATE_DIR: testDir -> 
+LIST: testDir -> 
+LIST: testDir -> 
+LIST: testDir -> 
+CREATE_DIR: testDir -> 
+LIST: testDir -> 
+LIST: testDir -> 
+CREATE_DIR: testDir -> 
+LIST: testDir -> 
+COPY: testDir/hello.txt -> testDir/hello_copy.txt
+DELETE: testDir/hello.txt -> 
+DELETE: testDir/hello_copy.txt -> 
+RENAME: testDir/hello.txt -> testDir/hellorenomeado.txt
+CREATE_DIR: pastateste -> 
+LIST: pastateste -> 
+COPY: pastateste/oi.txt -> pastateste/hello_copy.txt
+RENAME: pastateste/hello_copy.txt -> pastateste/hello_renamed.txt
+DELETE: pastateste/oi.txt -> 
